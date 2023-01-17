@@ -1,0 +1,28 @@
+.App{
+  background-image: url(../assets/Interface.jpg); background-repeat: no-repeat; background-size: cover;background-position: center;
+}
+
+.App *{
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+#container{
+width: 360px;
+height: 712px;
+border:  1px solid red;
+margin: auto;
+margin-left: auto;
+}
+
+#profile{
+  text-align: center;
+}
+#profile img{
+  width: 112px;
+}
+#profile p {
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
