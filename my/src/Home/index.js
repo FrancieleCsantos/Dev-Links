@@ -11,6 +11,19 @@ function Home() {
   <img src={Avatar} alt='Avatar'/>
   <p>@fransantos_black</p>
 </div>
+<ul>
+  <li>
+    <a href='#' >Sobre Mim</a>
+  </li>
+  <li>
+    <a href='#' >Ver meus Projetos</a>
+  </li>
+  <li>
+    <a href='#' >Cursos e voluntariado</a>
+
+  </li>
+  {/* //target='blank' para abrir uma nova aba */}
+</ul>
 
 </div>
     </div>
