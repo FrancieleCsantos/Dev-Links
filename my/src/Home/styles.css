@@ -3,6 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
 body{
   background-image: url(../assets/Interface.jpg); background-repeat: no-repeat; background-size: cover;background-position: center;
 }
@@ -16,6 +17,10 @@ body *{
 width: 360px;
 height: 400px;
 margin: 56px auto 0px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 
 #profile{
@@ -24,12 +29,47 @@ margin: 56px auto 0px;
 }
 #profile img{
   width: 112px;
+
 }
 #profile p {
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
 margin-top: 8px;
+}
+
+#switch {
+  width: 64px;
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+#switch span{
+  width: 64px;
+  height: 24px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(4px);
+  border-radius: 9999px;
+}
+
+#switch button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background: white;
+  border-radius: 50%;
+  border: 0px;
+
+  right: 0;
+  position: absolute;
+  z-index:1;
 }
 
 ul{
@@ -65,7 +105,33 @@ transition:  background 0.2s;
 
 ul li a:hover{
 
-  background: rgba(255, 255, 255, 0.05);
+background: rgba(255, 255, 255, 0.05);
 border: 1.5px solid white;
+padding: 24px 0;
+
+}
+
+#social {
+
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 24px;
+padding: 24px 0;
+}
+
+
+#social a {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 16px;
+ transition:  background 0.2s;
+ border-radius: 50%;
+
+}
+#social a:hover {
+  background: rgba(255, 255, 255, 0.2);
+
 
 }
