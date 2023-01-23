@@ -4,7 +4,7 @@ import Avatar from '../assets/Avatar.png'
 import Git from '../assets/Git.png'
 import Instagram from '../assets/Instagram.png'
 import linkedin from '../assets/LinkedIn.png'
-import mode from '../assets/mode.png'
+
 
 function Home() {
   return (
@@ -15,12 +15,7 @@ function Home() {
   <img src={Avatar} alt='Avatar'/>
   <p>@fransantos_black</p>
 </div>
-<div id='switch'>
-<button>
- <img src={mode} alt='mode'/>
-</button>
-<span></span>
-</div>
+
 <ul>
   <li>
     <a href='#' >Sobre Mim</a>
@@ -30,7 +25,6 @@ function Home() {
   </li>
   <li>
     <a href='#' >Cursos e voluntariado</a>
-
   </li>
  
 </ul>
